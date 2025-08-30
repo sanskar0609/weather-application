@@ -18,7 +18,7 @@ import { format, parseISO } from 'date-fns';
 
 Chart.register(...registerables);
 
-const API_KEY = '8dccecb5449a918ab5cc94ab1f21f83e'; // Replace with your OpenWeatherMap API key
+const API_KEY = '8dcc####'; // Replace with your OpenWeatherMap API key
 
 function WeatherApp() {
   const [city, setCity] = useState('');
